@@ -1,0 +1,98 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:18:1-44:12
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-v4:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/d8ef2c59f5883826695635591259dbec/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/ea9e799d73dc509a1223c44353a3780e/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/ffc21b3e9c8dc7770658905c1ca151ac/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/ccadba989848bd5f4634cad82ba1ff24/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/9ccbf9ef161295a9c7fc03a5132d2745/AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/3ad8821ae48518e98e7b2c48febe86fe/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/45b25dfc3236513011c2ff49e9f17a0c/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:support-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/089b4f11a3a6fb9d5ce2bdb916352494/AndroidManifest.xml:17:1-27:12
+	package
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:19:5-38
+	xmlns:android
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:18:11-69
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:21:5-80
+	android:name
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:21:22-78
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:22:5-71
+	android:name
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:22:22-68
+uses-sdk
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:24:5-26:41
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/d8ef2c59f5883826695635591259dbec/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/d8ef2c59f5883826695635591259dbec/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/ea9e799d73dc509a1223c44353a3780e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/ea9e799d73dc509a1223c44353a3780e/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/ffc21b3e9c8dc7770658905c1ca151ac/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/ffc21b3e9c8dc7770658905c1ca151ac/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/ccadba989848bd5f4634cad82ba1ff24/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/ccadba989848bd5f4634cad82ba1ff24/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/9ccbf9ef161295a9c7fc03a5132d2745/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/9ccbf9ef161295a9c7fc03a5132d2745/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/3ad8821ae48518e98e7b2c48febe86fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/3ad8821ae48518e98e7b2c48febe86fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/45b25dfc3236513011c2ff49e9f17a0c/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/45b25dfc3236513011c2ff49e9f17a0c/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/089b4f11a3a6fb9d5ce2bdb916352494/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/089b4f11a3a6fb9d5ce2bdb916352494/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:26:9-38
+	android:minSdkVersion
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:25:9-35
+application
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:28:5-42:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.1.1.aar/9ee59d3b5ebdfd06fec5a151311fff29/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/d8ef2c59f5883826695635591259dbec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-v4-25.1.1.aar/d8ef2c59f5883826695635591259dbec/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/ea9e799d73dc509a1223c44353a3780e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-fragment-25.1.1.aar/ea9e799d73dc509a1223c44353a3780e/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/ffc21b3e9c8dc7770658905c1ca151ac/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.1.1.aar/ffc21b3e9c8dc7770658905c1ca151ac/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/ccadba989848bd5f4634cad82ba1ff24/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.1.1.aar/ccadba989848bd5f4634cad82ba1ff24/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/9ccbf9ef161295a9c7fc03a5132d2745/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.1.1.aar/9ccbf9ef161295a9c7fc03a5132d2745/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/3ad8821ae48518e98e7b2c48febe86fe/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.1.1.aar/3ad8821ae48518e98e7b2c48febe86fe/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/45b25dfc3236513011c2ff49e9f17a0c/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.1.1.aar/45b25dfc3236513011c2ff49e9f17a0c/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/089b4f11a3a6fb9d5ce2bdb916352494/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] /Users/karthikeyan/.gradle/caches/transforms-1/files-1.1/support-compat-25.1.1.aar/089b4f11a3a6fb9d5ce2bdb916352494/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:30:9-41
+	android:debuggable
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:29:9-34
+	android:icon
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:31:9-45
+	android:allowBackup
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:28:18-44
+	android:theme
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:32:9-45
+activity#org.tensorflow.demo.SpeechActivity
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:34:9-41:20
+	android:screenOrientation
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:35:13-49
+	android:label
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:36:13-57
+	android:name
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:34:19-68
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:37:13-40:29
+action#android.intent.action.MAIN
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:38:17-69
+	android:name
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:38:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:39:17-77
+	android:name
+		ADDED from /Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/AndroidManifest.xml:39:27-74

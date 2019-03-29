@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: __local_aars__:/Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/libs/libandroid_tensorflow_inference_java.jar:unspecified@jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/libandroid_tensorflow_inference_java.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Sun Mar 03 21:13:02 IST 2019
+1.base=/Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/gradleBuild/intermediates/transforms/stripDebugSymbol/debug/0
+2.path=q_wavenet_mobile.pb
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/gradleBuild/intermediates/merged_assets/debug/mergeDebugAssets/out
+3.set=ASSET
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=BUILD
+count=4
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+3.base=/Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/gradleBuild/intermediates/merged_assets/debug/mergeDebugAssets/out
+0.set=DEX
+0.base=/Users/karthikeyan/Documents/docs/book/AIMobileProjects/chapter7/code/speech-master/speechandroid/gradleBuild/intermediates/transforms/dexMerger/debug/0
+2.baseType=DIRECTORY
+1.path=lib/armeabi-v7a/libtensorflow_inference.so
