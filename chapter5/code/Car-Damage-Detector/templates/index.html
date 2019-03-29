@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Karthikeyan NG">
+
+    <title>Damage Estimator</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet"/>
+
+    <!-- Custom fonts for this template -->
+    <link href="{{ url_for('static', filename='vendor/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="{{ url_for('static', filename='vendor/magnific-popup/magnific-popup.css') }}" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename='css/creative.min.css') }}" rel="stylesheet" />
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+      <a class="navbar-brand" href="#page-top">Damage Estimator</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+      </div>
+    </nav>
+
+
+
+    <section class="bg-primary" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto text-center">
+            <h2 class="section-heading text-white">Do you have a damaged vehicle?</h2>
+            <hr class="light">
+            <p class="text-faded">Machine Learning allows for a classification process that is automated and makes lesser error. Besides risk group classification, Deep Learning algorithms can be applied to images of vehicle damage, allowing for automated claim classification.</p>
+			<br/>
+			<div class="contr"><h4 class="section-heading text-white">Select the file (image) and Upload</h4></div>
+			<br/>
+		  <form action="upload" method="post" enctype="multipart/form-data">
+			<div class="form-group">
+				<input type="file" name="file" class="file">
+				<div class="input-group col-xs-12">
+				  <span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+				  <input type="text" class="form-control input-lg" disabled placeholder="Upload Image">
+				  <span class="input-group-btn">
+					<button class="browse btn btn-primary input-lg" type="button"><i class="glyphicon glyphicon-search"></i> Browse</button>
+				  </span>
+				</div>
+			  </div>
+			<input type="submit" class="btn btn-primary" value="Upload"><br /><br />
+		  </form>
+        </div>
+      </div>
+    </section>
+
+    
+
+
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/popper/popper.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.min.js') }}"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="{{ url_for('static', filename='vendor/jquery-easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/scrollreveal/scrollreveal.min.js') }}"></script>
+    <script src="{{ url_for('static', filename='vendor/magnific-popup/jquery.magnific-popup.min.js') }}"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="{{ url_for('static', filename='js/creative.min.js') }}"></script>
+	<script>
+			$(document).on('click', '.browse', function(){
+		  var file = $(this).parent().parent().parent().find('.file');
+		  file.trigger('click');
+		});
+		$(document).on('change', '.file', function(){
+		  $(this).parent().find('.form-control').val($(this).val().replace(/C:\\fakepath\\/i, ''));
+		});
+	</script>
+
+  </body>
+
+</html>
